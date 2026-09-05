@@ -1,0 +1,30 @@
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+credentials
+.aws/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# OS
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
